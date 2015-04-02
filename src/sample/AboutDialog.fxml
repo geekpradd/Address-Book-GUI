@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="500.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AboutDialogController">
+   <children>
+      <Label layoutX="80.0" layoutY="24.0" styleClass="label-header" text="About AddressApp" />
+      <TextFlow fx:id="txt" layoutX="19.0" layoutY="100.0" prefHeight="162.0" prefWidth="461.0" styleClass="label-bright" />
+      <Button layoutX="394.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleClose" text="Close" />
+   </children>
+</AnchorPane>
